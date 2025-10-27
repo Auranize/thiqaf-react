@@ -52,17 +52,17 @@ export default function Landing() {
             clientType: 'الأعمال الصغيرة / الشركات الناشئة',
             deliverables: 'نشر القالب، التخصيص الأساسي، الشعار + الدومين + إعداد الاستضافة',
             usdPrice: '$1,500 – $3,000',
-            inrPrice: '₹1.2 لكح – ₹2.5 لكح',
-            monthlyInr: '₹25 ألف – ₹40 ألف',
-            successRate: '70–85%'
+            inrPrice: '',
+            monthlyInr: '',
+            successRate: ''
           },
           {
             clientType: 'تاجر التجزئة متوسط الحجم',
             deliverables: 'إضافة بوابة دفع (Tap Payments / PayFort)، الشحن، التحليلات، SEO، عربي/إنجليزي',
             usdPrice: '$4,000 – $7,000',
-            inrPrice: '₹3.3 لكح – ₹5.8 لكح',
-            monthlyInr: '₹60 ألف – ₹1 لكح',
-            successRate: '65–80%'
+            inrPrice: '',
+            monthlyInr: '',
+            successRate: ''
           },
           {
             clientType: 'المؤسسات / سلاسل العلامات التجارية',
