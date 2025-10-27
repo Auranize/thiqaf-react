@@ -123,17 +123,17 @@ export default function Landing() {
             clientType: 'Small Business / Startup',
             deliverables: 'Deploy your template, basic customization, logo + domain + hosting setup',
             usdPrice: '$1,500 – $3,000',
-            inrPrice: '₹1.2L – ₹2.5L',
-            monthlyInr: '₹25k – ₹40k',
-            successRate: '70–85%'
+            inrPrice: '',
+            monthlyInr: '',
+            successRate: ''
           },
           {
             clientType: 'Mid-size Retailer',
             deliverables: 'Add payment gateway (Tap Payments / PayFort), shipping, analytics, SEO, Arabic/English',
             usdPrice: '$4,000 – $7,000',
-            inrPrice: '₹3.3L – ₹5.8L',
-            monthlyInr: '₹60k – ₹1L',
-            successRate: '65–80%'
+            inrPrice: '',
+            monthlyInr: '',
+            successRate: ''
           },
           {
             clientType: 'Enterprise / Brand Chain',
@@ -165,8 +165,8 @@ export default function Landing() {
       {/* Animated Background Elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
-        <div className="absolute top-40 right-10 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style={{animationDelay: '2s'}}></div>
-        <div className="absolute -bottom-32 left-1/2 w-96 h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style={{animationDelay: '4s'}}></div>
+        <div className="absolute top-40 right-10 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute -bottom-32 left-1/2 w-96 h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style={{ animationDelay: '4s' }}></div>
       </div>
 
       {/* Navigation */}
@@ -243,7 +243,7 @@ export default function Landing() {
               <Sparkles className="w-4 h-4 text-indigo-600" />
               <span className="text-sm font-semibold text-indigo-900">Digital Excellence</span>
             </div>
-            
+
             <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-slate-900 mb-6 leading-tight animate-in fade-in slide-in-from-bottom-10 duration-700">
               {t.hero.title}
               <br />
@@ -251,11 +251,11 @@ export default function Landing() {
                 {t.hero.titleGradient}
               </span>
             </h1>
-            
+
             <p className="text-xl sm:text-2xl text-slate-600 mb-12 leading-relaxed animate-in fade-in slide-in-from-bottom-10 duration-700 delay-200">
               {t.hero.subtitle}
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
               <button className="group px-8 py-5 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white rounded-2xl hover:shadow-2xl hover:shadow-indigo-500/50 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg font-semibold relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -336,7 +336,7 @@ export default function Landing() {
             {/* E-commerce Card */}
             <div className="group relative bg-gradient-to-br from-white to-slate-50 p-10 rounded-3xl border border-slate-200 hover:border-indigo-300 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/20 overflow-hidden">
               <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-indigo-500/10 to-purple-500/10 rounded-full -translate-y-20 translate-x-20 group-hover:scale-150 transition-transform duration-700"></div>
-              
+
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg shadow-indigo-500/50">
                   <ShoppingCart className="w-8 h-8 text-white" />
@@ -353,7 +353,7 @@ export default function Landing() {
             {/* Social Media Card */}
             <div className="group relative bg-gradient-to-br from-white to-slate-50 p-10 rounded-3xl border border-slate-200 hover:border-purple-300 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/20 overflow-hidden">
               <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-purple-500/10 to-pink-500/10 rounded-full -translate-y-20 translate-x-20 group-hover:scale-150 transition-transform duration-700"></div>
-              
+
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg shadow-purple-500/50">
                   <Share2 className="w-8 h-8 text-white" />
@@ -389,7 +389,7 @@ export default function Landing() {
           <div className="absolute top-10 left-10 w-72 h-72 bg-white/10 rounded-full blur-3xl"></div>
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
         </div>
-        
+
         <div className="relative max-w-5xl mx-auto text-center z-10">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             {t.cta.title}
