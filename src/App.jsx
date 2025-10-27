@@ -81,7 +81,8 @@ export default function Landing() {
       },
       footer: {
         rights: 'جميع الحقوق محفوظة',
-        tagline: 'نبني المستقبل الرقمي'
+        tagline: 'نبني المستقبل الرقمي',
+        phone: 'تواصل معنا على +34 610 04 39 75'
       }
     },
     en: {
@@ -152,7 +153,8 @@ export default function Landing() {
       },
       footer: {
         rights: 'All rights reserved',
-        tagline: 'Building the Digital Future'
+        tagline: 'Building the Digital Future',
+        phone: 'Contact us at +34 610 04 39 75'
       }
     }
   };
@@ -420,6 +422,7 @@ export default function Landing() {
             <div className="text-slate-400 text-center md:text-end">
               <p className="mb-1">© 2025 Thiqaf Agency</p>
               <p>{t.footer.rights}</p>
+              <p className="mt-2">{t.footer.phone}</p>
             </div>
           </div>
         </div>
