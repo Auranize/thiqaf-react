@@ -280,7 +280,7 @@ export default function Landing() {
                   <DollarSign className="w-6 h-6 text-emerald-600 group-hover:scale-110 transition-transform" />
                 </div>
                 <ul className="space-y-3 mb-8 text-sm text-slate-600">
-                  {plan.deliverables.split(', ').map((item, i) => (
+                  {plan.deliverables.split(isRTL ? '، ' : ', ').map((item, i) => (
                     <li key={i} className="flex items-center gap-2">
                       <Check className="w-4 h-4 text-emerald-500 flex-shrink-0" />
                       <span>{item}</span>
