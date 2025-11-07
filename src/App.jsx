@@ -121,24 +121,24 @@ export default function Landing() {
         subtitle: 'Tailored solutions to meet your business needs',
         plans: [
           {
-            clientType: 'Small Business / Startup',
-            deliverables: 'Deploy your template, basic customization, logo + domain + hosting setup',
-            usdPrice: '$1,500 – $3,000',
+            clientType: 'Starter E-Commerce',
+            deliverables: 'Custom E-commerce Website Design , Domain & Hosting Setup , Product Upload (up to 150 products) , Website Publishing & Launch , Free Maintenance (1 month) , FREE QR Code linking to store website (print-ready)',
+            usdPrice: '$650',
             inrPrice: '',
             monthlyInr: '',
             successRate: ''
           },
           {
-            clientType: 'Mid-size Retailer',
-            deliverables: 'Add payment gateway (Tap Payments / PayFort), shipping, analytics, SEO, Arabic/English',
-            usdPrice: '$4,000 – $7,000',
+            clientType: 'Growth E-Commerce',
+            deliverables: 'Everything in Starter Plan PLUS , Advanced UI/UX Design (conversion-focused layout)Basic SEO Setup (meta tags, keywords, indexing) , Free Maintenance (2 months) ,SSL Certificate (secure checkout) , FREE QR Code linking to store website (print-ready)',
+            usdPrice: '$780',
             inrPrice: '',
             monthlyInr: '',
             successRate: ''
           },
           {
-            clientType: 'Enterprise / Brand Chain',
-            deliverables: 'Multi-vendor, dashboard, API integrations, custom reporting',
+            clientType: 'Social Media Management ',
+            deliverables: 'Full Social Media Account Management (Instagram, Facebook, TikTok, etc.) , Content Moderation & Community Engagement , 20 Custom Post Designs per Month (professionally branded) , Captions & Hashtags Creation , Monthly Performance & Growth Report , FREE QR Code linking to social profiles or website (print-ready)',
             usdPrice: '$10,000 – $20,000',
             inrPrice: '',
             monthlyInr: '',
