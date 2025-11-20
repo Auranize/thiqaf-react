@@ -25,54 +25,54 @@ export default function Landing() {
       },
       hero: {
         badge: 'التميز الرقمي',
-        title: 'نحول أفكارك الرقمية',
-        titleGradient: 'إلى واقع ملموس',
+        title: 'نحوّل رؤيتك الرقمية',
+        titleGradient: 'إلى واقع حقيقي',
         subtitle: 'وكالة ثقاف المتخصصة في التجارة الإلكترونية وإدارة وسائل التواصل الاجتماعي',
-        cta: 'ابدأ مشروعك الآن',
-        secondary: 'استكشف خدماتنا'
+        cta: 'ابدأ مشروعك',
+        secondary: 'استكشف الخدمات'
       },
       services: {
         title: 'خدماتنا',
-        subtitle: 'حلول شاملة ومبتكرة لنمو أعمالك الرقمية',
+        subtitle: 'حلول شاملة ومبتكرة لتعزيز حضورك الرقمي',
         ecommerce: {
-          title: 'التجارة الإلكترونية',
-          desc: 'نبني متاجر إلكترونية احترافية تزيد من مبيعاتك وتوفر تجربة تسوق استثنائية لعملائك'
+          title: 'حلول التجارة الإلكترونية',
+          desc: 'نبني متاجر إلكترونية احترافية تعزز مبيعاتك وتقدم تجربة تسوق متميزة لعملائك'
         },
         social: {
-          title: 'إدارة وسائل التواصل',
-          desc: 'نصمم ونطبق استراتيجيات محتوى مبتكرة تبني علاقة قوية مع جمهورك وتزيد من تفاعلهم'
+          title: 'إدارة وسائل التواصل الاجتماعي',
+          desc: 'نطوّر استراتيجيات محتوى مبتكرة تبني علاقة قوية مع جمهورك وتزيد من التفاعل'
         },
         features: [
-          'تصميم متجاوب لجميع الأجهزة',
-          'تحسين محركات البحث SEO',
-          'تحليلات ومقاييس الأداء',
-          'دعم فني متواصل 24/7'
+          'تصميم متجاوب مع جميع الأجهزة',
+          'تحسين محرّكات البحث (SEO)',
+          'تحليلات وقياس الأداء',
+          'دعم فني على مدار الساعة'
         ]
       },
       pricing: {
-        title: 'خطط التسعير',
-        subtitle: 'حلول مخصصة تناسب احتياجات عملك',
+        title: 'خطط الأسعار',
+        subtitle: 'حلول مصممة خصيصًا لتلبية احتياجات عملك',
         plans: [
           {
-            clientType: 'الأعمال الصغيرة / الشركات الناشئة',
-            deliverables: 'نشر القالب، التخصيص الأساسي، الشعار + الدومين + إعداد الاستضافة',
-            usdPrice: '$1,500 – $3,000'
+            clientType: 'التجارة الإلكترونية – باقة البداية',
+            deliverables: 'تصميم موقع تجارة إلكترونية مخصص، إعداد الدومين والاستضافة، رفع المنتجات (حتى 150 منتجًا)، نشر الموقع وإطلاقه، صيانة مجانية لمدة شهر، رمز QR مجاني يوجّه لموقع المتجر (جاهز للطباعة)',
+            usdPrice: '$650'
           },
           {
-            clientType: 'تاجر التجزئة متوسط الحجم',
-            deliverables: 'إضافة بوابة دفع (Tap Payments / PayFort)، الشحن، التحليلات، SEO، عربي/إنجليزي',
-            usdPrice: '$4,000 – $7,000'
+            clientType: 'التجارة الإلكترونية – باقة النمو',
+            deliverables: 'كل ما في باقة البداية بالإضافة إلى تصميم UI/UX متقدم محسّن للتحويلات، إعداد SEO أساسي، صيانة مجانية لمدة شهرين، شهادة SSL، رمز QR مجاني يوجّه لموقع المتجر (جاهز للطباعة)',
+            usdPrice: '$780'
           },
           {
-            clientType: 'المؤسسات / سلاسل العلامات التجارية',
-            deliverables: 'متعدد البائعين، لوحة تحكم، تكاملات API، تقارير مخصصة',
-            usdPrice: '$10,000 – $20,000'
+            clientType: 'إدارة وسائل التواصل الاجتماعي',
+            deliverables: 'إدارة كاملة لحسابات التواصل، إدارة التفاعل والمجتمع، 20 تصميم منشور شهريًا، كتابة المحتوى والعناوين والهاشتاغات، تقرير أداء شهري، رمز QR مجاني يوجّه للحسابات أو الموقع (جاهز للطباعة)',
+            usdPrice: '$390'
           }
         ]
       },
       cta: {
-        title: 'جاهز لتنمية أعمالك؟',
-        subtitle: 'دعنا نساعدك في بناء حضور رقمي قوي ومؤثر',
+        title: 'جاهز لتطوير أعمالك؟',
+        subtitle: 'دعنا نساعدك في بناء حضور رقمي قوي وفعّال',
         button: 'ابدأ الآن'
       },
       footer: {
@@ -130,7 +130,7 @@ export default function Landing() {
           {
             clientType: 'Social Media Management',
             deliverables: 'Full Social Media Account Management (Instagram, Facebook, TikTok, etc.), Content Moderation & Community Engagement, 20 Custom Post Designs per Month (professionally branded), Captions & Hashtags Creation, Monthly Performance & Growth Report, FREE QR Code linking to social profiles or website (print-ready)',
-            usdPrice: '$10,000 – $20,000'
+            usdPrice: '$390 '
           }
         ]
       },
@@ -247,7 +247,7 @@ export default function Landing() {
             </p>
 
             <div className="flex flex-col xs:flex-row gap-6 justify-center items-center">
-              <button 
+              <button
                 onClick={handleStartProject}
                 className="group relative px-12 py-6 bg-gradient-to-r from-emerald-600 to-amber-500 text-white rounded-3xl hover:from-emerald-700 hover:to-amber-600 transition-all duration-500 flex items-center justify-center gap-3 text-lg font-bold shadow-xl hover:shadow-2xl hover:-translate-y-1 overflow-hidden"
               >
@@ -374,7 +374,7 @@ export default function Landing() {
           <p className="text-xl sm:text-2xl text-amber-100/90 mb-12 leading-relaxed font-light">
             {t.cta.subtitle}
           </p>
-          <button 
+          <button
             onClick={handleStartProject}
             className="group relative px-16 py-6 bg-white text-emerald-900 rounded-3xl hover:bg-amber-50 transition-all duration-500 text-lg font-bold inline-flex items-center gap-3 shadow-2xl hover:shadow-white/30 hover:-translate-y-1 overflow-hidden"
           >
