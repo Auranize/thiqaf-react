@@ -164,8 +164,8 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-emerald-600 to-amber-500 rounded-xl flex items-center justify-center shadow-md">
-                <Sparkles className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-md">
+                <img src="/logo1.svg" alt="Thiqaf Logo" className="w-8 h-8 object-contain" />
               </div>
               <span className="text-2xl font-bold text-slate-900 tracking-tight hidden sm:block">
                 ثقاف Thiqaf
@@ -230,8 +230,8 @@ export default function Landing() {
       <section className="relative pt-32 pb-40 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-5xl mx-auto">
-            <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-amber-50/90 to-emerald-50/90 rounded-full mb-12 backdrop-blur-md border border-amber-200/60 shadow-lg">
-              <Sparkles className="w-5 h-5 text-emerald-700" />
+            <div className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-full mb-12 backdrop-blur-md border border-amber-200/60 shadow-lg">
+              <img src="/logo1.svg" alt="Thiqaf Logo" className="w-8 h-8 object-contain" />
               <span className="text-base font-semibold text-slate-800 tracking-wide">{t.hero.badge}</span>
             </div>
 
@@ -391,8 +391,8 @@ export default function Landing() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-center md:text-left flex flex-col items-center md:items-start">
               <div className="flex items-center gap-3 justify-center md:justify-start mb-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-amber-400 rounded-2xl flex items-center justify-center shadow-lg">
-                  <Sparkles className="w-6 h-6 text-white" />
+                <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-lg">
+                  <img src="/logo1.svg" alt="Thiqaf Logo" className="w-8 h-8 object-contain" />
                 </div>
                 <span className="text-2xl font-bold text-white">
                   ثقاف Thiqaf
